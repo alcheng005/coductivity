@@ -1,0 +1,8 @@
+{
+  "manifest_version": 2,
+  "name": "Coductivity",
+  "version": ".01",
+
+  "default_locale": "en",
+  "description": "Where Devs go to stay coductive."
+}
