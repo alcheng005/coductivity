@@ -1,8 +1,24 @@
 {
+  "name": "Coductivity OG",
+  "description": "Where Devs go to stay coductive.",
+  "version": "0.1.1",
   "manifest_version": 2,
-  "name": "Coductivity",
-  "version": ".01",
-
-  "default_locale": "en",
-  "description": "Where Devs go to stay coductive."
+  "options_page": "/html/index.html",
+  "browser_action": {
+    "default-icon": "../assets/code_icon.png"
+  },
+  "background" : {
+    "scripts" : ["background.js"]
+  },
+  "content_scripts": [{
+    "js": ["js/main.js"],
+    "matches": ["http://*/*", "https://*/*"]
+  }],
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage",
+    "http://*/*",
+    "https://*/*"
+  ]
 }

@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-image: url("https://res.cloudinary.com/mrtommyliang/image/upload/v1608178522/hex_le2k12.png");
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  margin-top: -10px;
+}
+
+body {
+  /* background-color: maroon; */
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+body section {
+  /* background: green; */
+  margin: 3vh 0vh;
+}
+
+#title-phrase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-bottom: -40px;
+}
+
+#center-console {
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px rgba(255,255,255,.2);
+  background: rgba(0, 0, 0, .55);
+  padding: 35px;
+}
+
+#timers {
+  display: flex;
+  justify-content: space-around;
+}
+
+#timers div {
+  font-size: 18px;
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.elapsed-time p {
+  font-weight: bold;
+}
+
+.input-time p {
+  font-weight: bold;
+}
+
+#codingGif {
+  height: 30vh;
+  width: auto;
+  padding: 35px;
+}
